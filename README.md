@@ -1,49 +1,62 @@
-# (replace-me: Exercise title)
+# Integrando GitHub Copilot ao Figma usando MCP
 
-_(replace-me: One-line description of the exercise)_
+Crie páginas e sistemas web utilizando o visual definido no Figma através da integração de Copilot com MCP
 
-## Welcome
+## Boas-vindas
 
-- **Who is this for**: (replace-me: Target audience description)
-- **What you'll learn**: (replace-me: Learning objectives)
-- **What you'll build**: (replace-me: Description of what the learner will create)
-- **Prerequisites**:
-  - (replace-me: Prerequisite skill/exercise)
-  - (replace-me: Other prerequisites)
+- **Para quem é este curso**: Desenvolvedores de nível intermediário que já estejam familiarizados com o GitHub Copilot, com conceitos básicos de GitHub e com desenvolvimento web. Você deverá ter uma conta Free ou superior no Figma para acompanhar o hands‑on.
+- **O que você vai aprender**: Criar páginas e sistemas web utilizando o visual definido no Figma através da integração de Copilot com MCP
+- **O que você vai construir**: Uma página web básica seguindo o modelo desta página do Figma: [Figma Community File](https://www.figma.com/community)
+- **Pré‑requisitos**:
+  - Conta ativa no GitHub com acesso ao Copilot (qualquer plano)
+  - Conta no Figma (Free ou superior)
+  - Node.js instalado
+  - Visual Studio Code com a extensão do Copilot
+  - Acesso a este repositório
 
-- **How long**: This exercise takes less than (replace-me: estimated time) to complete.
+- **Duração**: Aproximadamente 1 hora e 30 minutos, divididos em 5 etapas guiadas.tHub Copilot ao Figma usando MCP
 
-In this exercise, you will:
+## Boas-vindas
 
-1. (replace-me: Learning objective step #1)
-1. (replace-me: Learning objective step #2)
-1. (replace-me: Learning objective step #N)
+- **Para quem é este exercício**: Desenvolvedores web interessados em integrar design do Figma com desenvolvimento usando GitHub Copilot
+- **O que você vai aprender**: Como usar o Model Context Protocol (MCP) para conectar o GitHub Copilot ao Figma e automatizar a criação de código a partir de designs
+- **O que você vai construir**: Uma aplicação web completa baseada em designs do Figma, utilizando o GitHub Copilot para gerar código automaticamente
+- **Pré-requisitos**:
+  - Conhecimento básico em HTML, CSS e JavaScript
+  - Familiaridade com GitHub e GitHub Copilot
+  - Conta no Figma com acesso a designs
 
+- **Duração**: Este exercício leva menos de 2 horas para ser concluído.
 
-### How to start this exercise
+Neste curso você vai configurar um ambiente de desenvolvimento com suporte a MCP, ativar o Figma MCP server, integrar o GitHub Copilot ao seu design e gerar código de UI a partir de um arquivo Figma. Ao final, terá um componente ou página funcional e poderá aplicar o mesmo fluxo em outros projetos.
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+Você irá seguir estas 5 etapas guiadas:
 
-<!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=exercise-template&owner=%40me&name=skills-<replace-me>&description=Exercise:+Replace+me&visibility=public)
+1. Configurar o ambiente de desenvolvimento com suporte ao Model Context Protocol (MCP)
+2. Ativar e configurar o Figma MCP server
+3. Integrar o GitHub Copilot ao seu design do Figma
+4. Gerar código de UI automaticamente a partir do arquivo Figma
+5. Criar um componente ou página funcional completa
+
+### Como começar este exercício
+
+Basta copiar o exercício para sua conta, depois dê à sua Octocat favorita (Mona) **cerca de 20 segundos** para preparar a primeira lição e então **atualize a página**.
+
+[![](https://img.shields.io/badge/Copiar%20Exercício-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=dev-pods&template_name=github-copilot-mcp-with-figma&owner=%40me&name=github-copilot-mcp-with-figma&visibility=public)
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>Está com problemas? 🤷</summary><br/>
 
-When copying the exercise, we recommend the following settings:
+Ao copiar o exercício, recomendamos as seguintes configurações:
 
-- For owner, choose your personal account or an organization to host the repository.
+- Para proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+- Recomendamos criar um repositório público, pois repositórios privados usam minutos do Actions.
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+Se o exercício não estiver pronto em 20 segundos, verifique a aba [Actions](../../actions).
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
+- Veja se há um job em execução. Às vezes, pode demorar um pouco mais.
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+- Se a página mostrar um job com falha, por favor, envie uma issue. Parabéns, você encontrou um bug! 🐛
 
 </details>
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
